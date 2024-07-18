@@ -1,0 +1,43 @@
+.skillsh{
+    @apply h-10 p-2 text-xl bg-blue-400 rounded-xl 
+}
+
+.skillss{
+    @apply h-10 p-2  text-xl bg-yellow-300 rounded-xl  
+
+}
+
+.topic1{
+    @apply text-[1.4rem] text-center
+}
+
+
+.topic{
+    @apply mt-20 text-4xl text-center underline
+}
+.educont{
+    @apply flex justify-center gap-6 mt-28
+}
+.edubox{
+    @apply flex h-32  w-[550px] 
+} 
+
+ .textbox{
+    @apply items-center w-3/4 h-full
+} 
+.text1{
+    @apply mt-6 text-2xl font-bold
+}
+
+.text2{
+    @apply mt-[0.1rem] text-xl
+}
+
+.imgsize{
+@apply w-10 h-10
+
+}
+
+#imggaptext{
+    @apply mt-4
+}

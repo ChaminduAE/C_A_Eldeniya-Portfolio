@@ -37,7 +37,7 @@ const BgAnimation = () => {
                     ease:"easeInOut",
                     delay:0.7,
                 }}
-                className="bg-gray-800 border-t-2 border-gray-400 h-[15vh] z-20  absolute left-0 bottom-0 "
+                className="bg-gray-800 border-t-2 border-gray-400 h-[11vh] z-20  absolute left-0 bottom-0 "
                 >
 
             </motion.div>

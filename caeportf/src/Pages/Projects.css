@@ -1,0 +1,30 @@
+
+
+.projectcard{
+    @apply h-[400px] w-[400px] mt-28
+}
+
+.projectcardup{
+    @apply h-2/3 w-full
+    overflow-hidden
+    bg-black
+}
+
+.projectcarddown{
+    @apply h-1/3 w-full
+    
+}
+
+.projtit{
+    @apply font-bold text-3xl mt-4
+}
+
+ .projdes{
+    @apply text-2xl w-full mt-4
+    
+
+ }
+ projcont{
+    @apply text-xl  mt-2
+
+ }

@@ -1,0 +1,5 @@
+ .expproj{
+
+   @apply h-10  bg-green-400 text-2xl pl-2 pr-2 border-2 border-black w-32 text-center  hover:animate-jump
+
+ }
