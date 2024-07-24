@@ -1,7 +1,7 @@
 
 
 .projectcard{
-    @apply h-[400px] w-[400px] mt-28
+    @apply h-[400px] w-[400px]  md:mb-24 mt-10 hover:animate-wiggle
 }
 
 .projectcardup{

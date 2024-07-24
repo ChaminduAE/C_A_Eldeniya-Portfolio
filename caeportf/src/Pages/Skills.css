@@ -1,9 +1,9 @@
 .skillsh{
-    @apply h-10 p-2 text-xl bg-blue-400 rounded-xl 
+    @apply h-10 p-2 text-xl bg-blue-400 rounded-xl hover:bg-green-600
 }
 
 .skillss{
-    @apply h-10 p-2  text-xl bg-yellow-300 rounded-xl  
+    @apply h-10 p-2  text-xl bg-yellow-300 rounded-xl  hover:bg-red-600
 
 }
 
@@ -15,11 +15,16 @@
 .topic{
     @apply mt-20 text-4xl text-center underline
 }
+.techbox{
+    @apply  flex flex-wrap items-center justify-center gap-10 hover:animate-shake
+}
+
+
 .educont{
-    @apply flex justify-center gap-6 mt-28
+    @apply flex flex-col md:flex-row justify-center gap-14 md:gap-6 mt-10 md:mt-28 
 }
 .edubox{
-    @apply flex h-32  w-[550px] 
+    @apply flex h-32  w-[400px] md:w-[550px] hover:animate-shake
 } 
 
  .textbox{

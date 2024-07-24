@@ -3,9 +3,9 @@ import './Projects.css'
 
 export default function Projects() {
   return (
-    <div className="w-screen">
-      <p className="text-[3rem] text-center">Projects</p>
-      <div className="flex flex-wrap justify-center gap-10 mx-20 mt-10">
+    <div className="px-6 pt-40 md:px-20 pb-52 bg-gradient-to-br from-white to-white via-gray-400">
+      <p className="text-[3rem] text-center underline mt-20 md:mt-10">Projects</p>
+      <div className="flex flex-wrap justify-center gap-10 mt-2">
 
    
       <div class="projectcard">
@@ -20,7 +20,7 @@ export default function Projects() {
    <div class="projectcard">
     <div class="projectcardup"><img src="../public/images/proj/portf.jpg " className="" alt="proj1" /></div>
     <div class="projectcarddown">
-      <p class="projtit">Portfolio Website</p>
+      <p class="projtit">A Portfolio Website</p>
       <p class="projdes">My Personal Portfolio</p>
       <p className='projcont'>GitHub Link : https://github.com/ChaminduAE/C_A_Eldeniya-Portfolio.git</p>
     </div>
@@ -39,7 +39,7 @@ export default function Projects() {
    <div class="projectcard">
     <div class="projectcardup"><img src="../public/images/proj/crash.jpg " className="" alt="proj1" /></div>
     <div class="projectcarddown">
-      <p class="projtit">Road Accident Data by Vehicle Type and Provinces in Sri Lanka 2012</p>
+      <p class="projtit">Road Accident Data by Vehicle Type and Provinces in Sri Lanka - 2012</p>
       <p class="projdes">My first Power BI Dashboard Project</p>
       <p className='projcont'> GitHub Link : https://github.com/ChaminduAE/Road_accident_data_by_vehicle_type_Power-BI-Project.git</p>
     </div>

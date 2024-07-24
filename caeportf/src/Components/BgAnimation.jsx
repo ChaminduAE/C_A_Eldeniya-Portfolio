@@ -19,10 +19,12 @@ const BgAnimation = () => {
                     delay:0.2,
                 }}
 
-                className="absolute top-0 left-0 z-0 h-screen bg-gradient-to-b from-gray-200 to-gray-400"
+                className="absolute top-0 left-0 z-0 h-[110vh] bg-gradient-to-r from-white to-gray-400"
+
+
 
             ></motion.div>
-            <motion.div
+            {/* <motion.div
             initial={{
                     width:0,
                 }}
@@ -40,7 +42,7 @@ const BgAnimation = () => {
                 className="bg-gray-800 border-t-2 border-gray-400 h-[11vh] z-20  absolute left-0 bottom-0 "
                 >
 
-            </motion.div>
+            </motion.div> */}
             <motion.div
 
             initial={{
@@ -50,7 +52,7 @@ const BgAnimation = () => {
                 }}
 
                 animate={{
-                    x: "-20vw"
+                    x: "-10vw"
 
                 }}
 
@@ -60,7 +62,7 @@ const BgAnimation = () => {
                     delay:0.9
                 }}
                 
-                className="bg-white  h-[178vh] w-[68vw] z-10 absolute -left-[10vw] -top-[58vh]" 
+                className="bg-white  h-[178vh] w-[68vw] z-1 absolute -left-[10vw] -top-[58vh]" 
 
                 ></motion.div>
         

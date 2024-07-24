@@ -1,7 +1,7 @@
 .content{
-    @apply text-2xl
+    @apply text-xl  md:text-2xl
 }
 
 .content2{
-    @apply text-2xl ml-10
+    @apply text-xl md:text-2xl ml-3 md:ml-10
 }

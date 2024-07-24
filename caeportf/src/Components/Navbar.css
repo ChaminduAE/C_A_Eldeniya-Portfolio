@@ -1,0 +1,7 @@
+.navbut{
+  @apply  text-[1rem]   md:text-xl text-black hover:text-red-500
+}
+
+.navicon{
+    @apply text-2xl text-black hover:text-red-500 hover:animate-jump
+}
