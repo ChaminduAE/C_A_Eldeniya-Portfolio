@@ -4,11 +4,11 @@ import "./Skills.css"
 import UnderNavbar from '../Components/UnderNavbar'
 export default function Skills() {
   return (
-    <div className="pt-40 pb-20 md:px-32 w-vw bg-gradient-to-t from-gray-400 to-gray-400 via-white">
+    <div className="px-4 pt-40 pb-20 md:px-32 w-vw bg-gradient-to-t from-gray-400 to-gray-400 via-white">
     
 
       <p className="text-[3rem] text-center underline mt-20 md:mt-10 ">Skills</p>
-      <div className="flex flex-col items-center justify-center gap-2 mt-20 md:flex-row md:gap-20">
+      <div className="flex flex-col items-center justify-center gap-2 mt-10 md:mt-20 md:flex-row md:gap-20">
         <div className="skillsh" >Front-End Development</div>
         <div className="skillsh">Data Analysis</div>
         <div className="skillss">Communication</div>
@@ -21,8 +21,8 @@ export default function Skills() {
       <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 h-[150px] mt-20 md:mt-36 ">
           <p className="topic1">Languages</p>
-          <div className="mt-14 md:mt-32">
-            <div className="flex flex-wrap items-center justify-center gap-2 md:gap-10 hover:animate-shake">
+          <div className="px-10 md:px-0 mt-14 md:mt-32">
+            <div className="flex flex-wrap items-center justify-center gap-10 md:gap-10 hover:animate-shake">
             <div><div className='imgsize'><img src="../public/images/web/html.svg" className="object-contain " alt="HTML Logo" /></div><div id="imggaptext">HTML</div></div>
               <div><div className='imgsize'><img src="../public/images/web/tailwind.svg" className="object-contain ml-8 " alt="HTML Logo" /></div><div id="imggaptext">TAILWIND CSS</div></div>
               <div><div className='imgsize'><img src="../public/images/web/css.svg" className="object-contain " alt="HTML Logo" /></div><div className='ml-2' id="imggaptext">CSS</div></div>
@@ -33,9 +33,9 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 h-[150px] mt-20 md:mt-36  ">
+        <div className="w-full md:w-1/2 h-[150px] mt-52 md:mt-36  ">
           <p className="topic1">Frameworks| Libraries | IDEs| Code Editor <br/> DataBases | Version Control </p>
-          <div className="mt-14 md:mt-24">
+          <div className="px-10 md:px-0 mt-14 md:mt-24">
             <div className="techbox ">
               <div><div className='imgsize'><img src="../public/images/web/react.svg" className="object-contain " alt="HTML Logo" /></div><div id="imggaptext">REACT</div></div>
               <div><div className='imgsize'><img src="../public/images/web/node.svg" className="object-contain " alt="HTML Logo" /></div><div id="imggaptext">NODE</div></div>
@@ -49,7 +49,7 @@ export default function Skills() {
       </div>
 
 
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col mt-20 md:mt-0 md:flex-row">
         <div className="w-full md:w-1/2 h-[150px] mt-52 ">
           <p className="topic1 ">Statistical Softwares</p>
           <div className="mt-14 md:mt-24 ">
