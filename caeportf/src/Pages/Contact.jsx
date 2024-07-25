@@ -4,16 +4,16 @@ import Footer from "../Components/Footer"
 
 export default function Contact() {
   return (
-    <div className='w-screen px-10 pt-40 pb-24 md:px-40 bg-gradient-to-tl from-white to-gray-500 '>
+    <div className='w-screen px-10 pt-40 pb-6 md:pb-20 z-45 md:px-40 bg-gradient-to-r from-red-400 to-red-200 via-green-300'>
       
 
-      <p className="text-[2rem] md:text-[2rem] text-center underline mt-28 md:mt-10">Contact Me</p>
+      <p className="text-[2rem] md:text-[2rem] text-center underline mt-10 md:mt-10 ">Contact Me</p>
       <div className='flex flex-col gap-6 md:gap-20 md:flex-row'>
 
       <div className="w-full h-full md:w-1/2 ">
-      <p className='mt-12 text-2xl text-left md:mt-10 md:text-center'>Get in Touch </p>
+      <p className='mt-12 text-2xl text-left md:mt-10 md:text-center '>Get in Touch </p>
 
-      <p className='mt-6 md:mt-20 content'>Feel free to get in touch with me for any inquiries, project discussions, or collaborations. I look forward to hearing from you!</p>
+      <p className='mt-6 md:mt-20 content '>Feel free to get in touch with me for any inquiries, project discussions, or collaborations. I look forward to hearing from you!</p>
       <table className='w-[300px] h-[75px] mt-10'>
         <tr className=''><td > <p className='content'>Telephone:</p></td><td><p className='content2'> 0766265828   </p></td></tr>
         <tr><td > <p className='content'>Email: </p></td><td>  <p className='content2'> caeldeniya@outlook.com  </p></td></tr>
@@ -22,7 +22,7 @@ export default function Contact() {
       </div>
 
       <div className="w-full h-full md:w-1/2 ">
-      <p className='mt-6 text-2xl text-left md:text-center md:mt-20'>Contact Form</p>
+      <p className='mt-6 text-2xl text-left md:text-center md:mt-10'>Contact Form</p>
 
       <form className="mt-10" action= "/submit" method="POST">
       <div className='mt-10 ml-2 md:mt-20 md:ml-20 '>

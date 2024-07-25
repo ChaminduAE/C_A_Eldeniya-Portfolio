@@ -19,8 +19,8 @@ const BgAnimation = () => {
                     delay:0.2,
                 }}
 
-                className="absolute top-0 left-0 z-0 h-[110vh] bg-gradient-to-r from-white to-gray-400"
-
+                // className="absolute top-[] left-0 z-0 h-[110vh] bg-gradient-to-r from-gray-400 to-gray-200"
+                    className="absolute top-[11vh] left-0 z-0 h-[110vh] bg-[url('/public/images/pf3.jpg')] bg-cover bg-center "
 
 
             ></motion.div>
@@ -52,7 +52,7 @@ const BgAnimation = () => {
                 }}
 
                 animate={{
-                    x: "-10vw"
+                    x: "-6vw"
 
                 }}
 
@@ -62,8 +62,9 @@ const BgAnimation = () => {
                     delay:0.9
                 }}
                 
-                className="bg-white  h-[178vh] w-[68vw] z-1 absolute -left-[10vw] -top-[58vh]" 
-
+                className="bg-gradient-to-r from-gray-500 to-white h-[178vh] w-[68vw] z-1 absolute -left-[10vw] -top-[58vh]" 
+            
+                // bg-gradient-to-b from-green-400 to-gray-200 via-yellow-200 
                 ></motion.div>
         
         </>

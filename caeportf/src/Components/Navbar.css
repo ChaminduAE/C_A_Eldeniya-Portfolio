@@ -3,5 +3,5 @@
 }
 
 .navicon{
-    @apply text-2xl text-black hover:text-red-500 hover:animate-jump
+    @apply text-2xl text-black hover:text-red-500 hover:animate-jump rounded h-5 w-5 md:h-auto md:w-auto
 }

@@ -4,16 +4,16 @@ import "./Skills.css"
 import UnderNavbar from '../Components/UnderNavbar'
 export default function Skills() {
   return (
-    <div className="px-4 pt-40 pb-20 md:px-32 w-vw bg-gradient-to-t from-gray-400 to-gray-400 via-white">
+    <div className="px-4 pt-40 pb-20 bg-gradient-to-b from-white to-white via-gray-300 md:px-32 w-vw">
     
 
-      <p className="text-[3rem] text-center underline mt-20 md:mt-10 ">Skills</p>
+      <p className="text-[3rem] text-center underline mt-10 md:mt-10 text-red-600 font-bold ">Skills</p>
       <div className="flex flex-col items-center justify-center gap-2 mt-10 md:mt-20 md:flex-row md:gap-20">
-        <div className="skillsh" >Front-End Development</div>
-        <div className="skillsh">Data Analysis</div>
-        <div className="skillss">Communication</div>
-        <div className="skillss">Leadership & TeamWork</div>
-        <div className="skillss">Problem Solving</div>
+        <button className="skillsh" >Front-End Development</button>
+        <button className="skillsh">Data Analysis</button>
+        <button className="skillss">Communication</button>
+        <button className="skillss">Leadership & TeamWork</button>
+        <button className="skillss">Problem Solving</button>
 
       
       </div>
@@ -78,7 +78,7 @@ export default function Skills() {
 </div>
 
 <div className="mt-28 md:mt-48">
-        <p className="topic" >Education</p>
+        <p className="topicedu"  >Education</p>
         
 
         <div className="educont">
@@ -125,7 +125,7 @@ export default function Skills() {
 </div>
 
          <div className='mt-20 md:mt-40'>
-        <p className="topic">Certifications</p>
+        <p className="topiccer">Certifications</p>
 
         <div className="educont">
 

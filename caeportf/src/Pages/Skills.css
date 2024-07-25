@@ -1,19 +1,22 @@
 .skillsh{
-    @apply h-10 p-2 text-xl bg-blue-400 rounded-xl hover:bg-green-600
+    @apply h-10 p-2 text-xl bg-blue-400 rounded-xl hover:bg-green-600 hover:animate-wiggle border-black 
 }
 
 .skillss{
-    @apply h-10 p-2  text-xl bg-yellow-300 rounded-xl  hover:bg-red-600
+    @apply h-10 p-2  text-xl bg-yellow-300 rounded-xl  hover:bg-red-600 hover:animate-wiggle
 
 }
 
 .topic1{
-    @apply text-[1.4rem] text-center
+    @apply text-[1.4rem] text-center text-transparent bg-gradient-to-r from-red-800 to-black  bg-clip-text
 }
 
 
-.topic{
-    @apply mt-20 text-4xl text-center underline
+.topicedu{
+    @apply mt-20 text-4xl text-center underline text-green-700 font-bold
+}
+.topiccer{
+    @apply mt-20 text-4xl text-center underline text-blue-700 font-bold
 }
 .techbox{
     @apply  flex flex-wrap items-center justify-center gap-10 hover:animate-shake
@@ -24,18 +27,18 @@
     @apply flex flex-col md:flex-row justify-center gap-14 md:gap-6 mt-10 md:mt-28 
 }
 .edubox{
-    @apply flex h-32  w-[400px] md:w-[550px] hover:animate-shake
+    @apply flex h-32  w-[400px] md:w-[550px] hover:animate-shake pr-6 md:pr-0 gap-2 md:gap-0
 } 
 
  .textbox{
     @apply items-center w-3/4 h-full
 } 
 .text1{
-    @apply mt-6 text-2xl font-bold
+    @apply mt-6 text-xl md:text-2xl font-bold
 }
 
 .text2{
-    @apply mt-[0.1rem] text-xl
+    @apply mt-[0.1rem] text-[1.22rem] md:text-xl
 }
 
 .imgsize{

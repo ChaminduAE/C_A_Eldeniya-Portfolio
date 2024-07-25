@@ -1,7 +1,7 @@
 
 
 .projectcard{
-    @apply h-[400px] w-[400px]  md:mb-24 mt-10 hover:animate-wiggle
+    @apply h-[400px] w-[400px]  mb-24 md:mb-10 mt-10 hover:animate-wiggle  
 }
 
 .projectcardup{
@@ -24,7 +24,4 @@
     
 
  }
- projcont{
-    @apply text-xl  mt-2
-
- }
+ 

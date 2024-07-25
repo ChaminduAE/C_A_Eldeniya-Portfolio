@@ -8,13 +8,13 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <div className=' fixed z-50 flex w-full h-[8vh] md:h-[11vh] bg-white '>
+    <div className=' fixed z-50 flex  w-full h-[8vh] md:h-[11vh] bg-white '>
 
       
         <div className="w-1/4 ">
           <Logo />
         </div>
-        <div className="flex items-center justify-center ml-[10px] md:ml-[230px] h-full gap-1 md:gap-10 ">
+        <div className="flex items-center justify-start md:justify-center ml-[20px] md:ml-[230px] h-full gap-1 md:gap-10 ">
           <Link to="/">
           <button className="navbut">Home</button>
           </Link>
@@ -26,12 +26,12 @@ export default function Navbar() {
           </Link>
 
         </div>
-        <div className="flex items-center justify-center gap-2 ml-2 md:gap-16 md:ml-24 md:relative">
-          <GrLinkedin className="navicon" />
-          <FaGithub  className="navicon" />
+        <div className="flex flex-col items-start justify-start gap-2 mt-4 mb-4 ml-4 md:mb-0 md:mt-0 md:flex-row md:items-center md:justify-center md:gap-16 md:ml-24 md:relative">
+          <a href="https://www.linkedin.com/in/chamindueldeniya"><GrLinkedin className="navicon" /></a>
+          <a href=" https://github.com/ChaminduAE"><FaGithub  className="navicon" /></a>
         </div>
-        <div className="relative flex items-center ml-2 md:ml-48 ">
-          <button className="p-2 text-xl text-white bg-black hover:text-red-500 hover:animate-jump">Resume</button>
+        <div className="relative flex items-center ml-3 md:ml-48 ">
+          <button className="p-2 text-[1rem] md:text-xl text-white bg-black hover:text-red-500 hover:animate-jump">Resume</button>
         </div>
       
 
