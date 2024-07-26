@@ -4,8 +4,13 @@ import "./Skills.css"
 import UnderNavbar from '../Components/UnderNavbar'
 export default function Skills() {
   return (
-    <div className="px-4 pt-40 pb-20 bg-gradient-to-b from-white to-white via-gray-300 md:px-32 w-vw">
+    <div className="px-4 pt-40 pb-20 bg-white md:px-32 w-vw">
     
+    {/* <video className="absolute inset-0 object-cover w-full h-full" muted loop autoPlay>
+        <source src="./public/videos/z.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+     */}
 
       <p className="text-[3rem] text-center underline mt-10 md:mt-10 text-red-600 font-bold ">Skills</p>
       <div className="flex flex-col items-center justify-center gap-2 mt-10 md:mt-20 md:flex-row md:gap-20">
@@ -157,3 +162,6 @@ export default function Skills() {
     </div>
   )
 }
+
+
+

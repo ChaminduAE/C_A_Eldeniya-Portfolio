@@ -1,5 +1,5 @@
  .expproj{
 
-   @apply  h-10  bg-green-400 text-[1rem] md:text-2xl px-0 md:px-2 border-2 border-black w-24 md:w-32 text-center  hover:animate-jump
+   @apply  h-10  bg-green-400 text-[1rem] md:text-2xl px-0 md:px-2 border-2 border-black w-24 md:w-32 text-center  hover:animate-jump rounded-md
    
  }

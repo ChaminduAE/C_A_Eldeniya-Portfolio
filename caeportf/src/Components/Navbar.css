@@ -1,7 +1,7 @@
 .navbut{
-  @apply  text-[1rem]   md:text-xl text-black hover:text-red-500
+  @apply  text-[1rem]   md:text-xl  hover:text-red-500 text-transparent bg-gradient-to-r from-red-600 to-blue-600 via-green-600 bg-clip-text
 }
 
 .navicon{
-    @apply text-2xl text-black hover:text-red-500 hover:animate-jump rounded h-5 w-5 md:h-auto md:w-auto
+    @apply text-2xl   text-blue-700 hover:text-red-600 hover:animate-jump rounded h-5 w-5 md:h-auto md:w-auto
 }

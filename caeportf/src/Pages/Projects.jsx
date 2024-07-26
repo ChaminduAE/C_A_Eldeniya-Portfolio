@@ -5,8 +5,9 @@ import { FaGithub } from 'react-icons/fa';
 
 
 export default function Projects() {
-  return (    <div className="px-6 pt-40 md:px-20 pb-52 bg-gradient-to-t from-blue-600 to-green-400 via-yellow-300">
-      <p className="text-[3rem] text-center underline mt-10 md:mt-10">Projects</p>
+  return (    
+      <div className="px-6 pt-40 md:px-20 pb-52 bg-gradient-to-t from-red-300 to-green-300 via-yellow-300">
+      <p className="text-[3rem] text-center text-blue-700 font-bold underline mt-10 md:mt-10">Projects</p>
       <div className="flex flex-wrap justify-center gap-10 mt-2">
 
    
