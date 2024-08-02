@@ -6,7 +6,7 @@ export default function Logo() {
   return (
     <div className='flex items-center w-full h-full '>
       <Link to="/" >
-        <p className="pl-4 text-2xl font-bold text-transparent uppercase md:text-3xl bg-gradient-to-r from-white to-red-600 via-green-700 bg-clip-text md:pl-32 hover:animate-bounce font-fonta">CHAMINDU</p>
+        <p className="pl-4 text-2xl text-transparent uppercase bg-gradient-to-r from-white to-green-700 via-red-600 bg-clip-text text-1xl md:text-xl md:pl-32 font-fontb">CHAMINDU</p>
         </Link>
     </div>
   )
