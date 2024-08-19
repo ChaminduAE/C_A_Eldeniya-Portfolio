@@ -16,11 +16,11 @@
 }
 
 .projtit{
-    @apply font-bold text-3xl mt-4
+    @apply font-bold text-3xl mt-4 text-white font-fonta
 }
 
  .projdes{
-    @apply text-2xl w-full mt-4
+    @apply text-2xl w-full mt-4 text-white font-fonta
     
 
  }

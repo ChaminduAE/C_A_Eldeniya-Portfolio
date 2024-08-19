@@ -7,17 +7,19 @@
 
 }
 
+.iconname{
+    @apply text-white font-fonta
+}
+
 .topic1{
-    @apply text-[1.4rem] text-center text-transparent bg-gradient-to-r from-red-800 to-black  bg-clip-text
+    @apply text-[1.4rem] text-center text-transparent bg-gradient-to-r from-blue-600 to-red-600 bg-clip-text
 }
 
 
 .topicedu{
-    @apply mt-20 text-4xl text-center underline text-green-700 font-bold
+    @apply mt-20 text-4xl text-center underline text-white font-bold font-fonta
 }
-.topiccer{
-    @apply mt-20 text-4xl text-center underline text-blue-700 font-bold
-}
+
 .techbox{
     @apply  flex flex-wrap items-center justify-center gap-10 hover:animate-shake
 }
@@ -34,11 +36,11 @@
     @apply items-center w-3/4 h-full
 } 
 .text1{
-    @apply mt-6 text-xl md:text-2xl font-bold
+    @apply mt-6 text-xl md:text-2xl font-bold text-white font-fonta
 }
 
 .text2{
-    @apply mt-[0.1rem] text-[1.22rem] md:text-xl
+    @apply mt-[0.1rem] text-[1.22rem] md:text-xl text-white font-fonta
 }
 
 .imgsize{

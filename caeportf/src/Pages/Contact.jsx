@@ -1,11 +1,10 @@
 import React from 'react'
 import "./Contact.css"
-import Footer from "../Components/Footer"
 
 export default function Contact() {
   return (
-    <div className='relative w-screen px-10 pt-40 pb-6 md:pb-20 md:px-40 bg-gradient-to-l from-white to-yellow-200 via-green-300'>
-      
+    <div className='relative w-screen px-10 pt-10 pb-6 md:pb-20 md:px-40 z-20' id="contact" >
+      {/* bg-gradient-to-l from-white to-yellow-200 via-green-300 */}
       {/* <video className="absolute inset-0 z-10 object-cover w-full h-full" muted loop autoPlay>
         <source src="./public/videos/z.mp4" type="video/mp4" />
         Your browser does not support the video tag.

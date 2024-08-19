@@ -1,19 +1,12 @@
 import React from 'react'
 import"./About.css"
-import UnderNavbar from  "../Components/UnderNavbar"
-import BgAnimation from '../Components/BgAnimation'
+
 
 export default function About() {
   return (
     
-   
-    <div className='relative px-8 md:px-32 h-[250vh] md:h-[140vh] z-20 pt-40'>
-  
-  <video className="absolute inset-0 z-10 object-cover w-full h-full" muted loop autoPlay>
-    <source src="./public/videos/z.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-
+    <div className='relative px-8 md:px-32 h-[250vh] md:h-[140vh] z-20 pt-40' id="about" >
+      
   <div className="relative z-30">
     <p className="text-[2.6rem] md:text-[3rem] text-white text-center underline mt-10 md:mt-10 font-fonta">About me</p>
     <p className="mt-20 text-[1.6rem] mb-0 md:mb- font-fontb text-transparent bg-gradient-to-r from-blue-600 to-red-600 bg-clip-text">
