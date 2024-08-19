@@ -23,7 +23,11 @@ export default function Home() {
             Final Year Physical Science Student passionate about <br /> building
             innovative web solutions.
           </p>
-         
+          <Link smooth to="#about">
+        <button className="h-10 mt-10 ml-10 text-2xl text-white border-2 border-blue-600 md:ml-32 w-20 md:w-40 hover:animate-jump hover:bg-gradient-to-tl from-blue-600 to-yellow-400 via-red-500">
+              About me
+            </button>
+        </Link>
           {/* <Link smooth to="#projects">
           <button className="h-10 mt-10 ml-20 text-2xl text-white border-2 border-blue-600 md:ml-32 w-60 hover:animate-jump hover:bg-gradient-to-tl from-blue-600 to-yellow-400 via-red-500">
               View My Work
@@ -39,11 +43,11 @@ export default function Home() {
           alt="My Profile Photo"
         />
    
-        <Link smooth to="#about">
+        {/* <Link smooth to="#about">
         <button className="h-10 mt-10 ml-10 text-2xl text-white border-2 border-blue-600 md:ml-32 w-20 md:w-40 hover:animate-jump hover:bg-gradient-to-tl from-blue-600 to-yellow-400 via-red-500">
               About
             </button>
-        </Link>
+        </Link> */}
       </div>
     </div>
     </>
