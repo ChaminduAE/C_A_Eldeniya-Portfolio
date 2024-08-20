@@ -11,7 +11,7 @@ const ResumeDownload = () => {
         
         <button className="p-2 text-[1rem] md:text-xl text-white bg-black hover:text-red-500 hover:animate-jump">
         <div className='flex gap-1'>
-        <p>Resume</p>
+        <p className='font-fontb'>Resume</p>
         </div>
         </button>
         

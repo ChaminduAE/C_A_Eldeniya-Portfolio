@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <div className="px-6 pt-40 md:px-20 pb-52 " id="projects">
+    <div className="px-6 pt-20 md:pt-40 md:px-20 pb-32 md:pb-52 " id="projects">
       <p className="text-[3rem] text-center text-white font-bold underline mt-10 md:mt-10 font-fonta">
         Projects
       </p>

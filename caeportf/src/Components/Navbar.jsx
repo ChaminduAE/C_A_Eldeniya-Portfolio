@@ -15,7 +15,9 @@ export default function Navbar() {
         <div className="w-1/4 ">
           <Logo />
         </div>
+        
         <div className="flex items-center justify-start md:justify-center ml-[20px] md:ml-[350px] h-full gap-1 md:gap-10 ">
+          
         </div>
         <div className="flex items-center justify-center gap-2 mt-4 mb-4 ml-24 md:mb-0 md:mt-0 md:items-center md:justify-center md:gap-8 md:ml-96 md:relative">
           

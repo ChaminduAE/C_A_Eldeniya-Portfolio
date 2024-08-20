@@ -3,9 +3,9 @@ import "./Skills.css"
 
 export default function Skills() {
   return (
-    <div className="px-4 pt-40 pb-20 z-50 md:px-32 w-vw" id="skills">
+    <div className="px-4 pt-10 pb-20 z-50 md:px-32 w-vw" id="skills">
     
-      <p className="text-[3rem] text-center underline mt-10 md:mt-10 text-white font-bold font-fonta">Skills</p>
+      <p className="text-[3rem] text-center underline md:mt-10 text-white font-bold font-fonta md:mt-[19vh]">Skills</p>
       <div className="flex flex-col items-center justify-center gap-2 mt-10 md:mt-20 md:flex-row md:gap-20">
         <button className="skillsh">Front-End Development</button>
         <button className="skillsh">Data Analysis</button>
@@ -75,7 +75,7 @@ export default function Skills() {
 
 </div>
 
-<div className="mt-28 md:mt-48">
+{/* <div className="mt-28 md:mt-48">
         <p className="topicedu"  >Education</p>
         
 
@@ -145,7 +145,7 @@ export default function Skills() {
         </div>
       </div>
 </div>
-</div>
+</div> */}
       
     
     </div>
